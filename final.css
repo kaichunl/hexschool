@@ -156,14 +156,14 @@
 }
 
 .item:hover::before {
-	border-top-color: #009973;
-	border-right-color: #009973;
+	border-top-color: #F596AA;
+	border-right-color: #F596AA;
 	transition: width .3s ease-out, height .3s ease-out .3s;
 }
 
 .item:hover::after {
-	border-bottom-color: #009973;
-	border-left-color: #009973;
+	border-bottom-color: #F596AA;
+	border-left-color: #F596AA;
 	transition: border-color 0s ease-out .6s, width .3s ease-out .6s, height .3s ease-out 1s;
 }
 
@@ -319,8 +319,7 @@ tbody tr:hover {
 
 .form textarea:focus,
 .form input:focus {
-	background: #fee;
-	caret-color: #F596AA;
+	border: 5px solid #F596AA;
 }
 
 .form .btn:hover {
